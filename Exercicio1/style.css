@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.classe{
+    width: 500px;
+    height: 500px;
+    border-radius: 100px;
+    border: solid 5px red;
+    text-align: justify ;
+    padding: 150px 50px 50px;
+    box-shadow: 15px 15px 10px rgb(114, 112, 112);
+    background:-webkit-linear-gradient(white,rgb(114, 112, 112));
+    
+    
+}
+
+.classe1{
+    background-color: red;
+    color: white;
+
+}
+.classe2{
+    font-size: 18pt;
+    font-weight: bold;
+}
+.classe3{
+    color: green;
+    font-weight: bold;
+    background-color: black;
+    text-decoration: line-through;
+
+}
+.classe4{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}

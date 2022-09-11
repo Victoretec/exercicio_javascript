@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 800px;
+    height: 800px;
+    background: -webkit-linear-gradient(rgb(46, 45, 45) , rgb(147, 147, 147));
+    background-attachment: fixed;   
+    margin: auto;
+    padding: 150px;
+}
+section{
+    
+    width:500px;
+    height: 500px;
+    color: rgb(255, 255, 255);
+    border-radius: 130px; 
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 31, 31);
+    flex-direction: column;
+}
+textarea{
+    height: 200px;
+    width: 400px;
+    font: 40pt verdana bold ;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 60px 0 0 0;
+}
+#botao{
+    width: 80%;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 130px;
+    background-color: rgb(255, 166, 0);
+    border: 1px solid;
+    margin-top: 10px;
+    
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    text-align: center;
+
+}
+
+
+h2{
+    margin-bottom: 14px;
+    text-align: center;
+}
+input{
+    padding: 6px;
+    border: none;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 10px;
+}
